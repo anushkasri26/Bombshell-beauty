@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    float:right;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.navbar ul li{
+   list-style: none;  
+   margin: 0 8px;
+   display: inline-block;
+   line-height: 50px;
+}
+.navbar ul li a{
+    text-decoration: none;
+     color: black;
+     font-size: 15px;
+     padding: 6px 13px;
+     font-family: 'Roboto','sans-serif';
+}
+.navbar ul li a.active
+.navbar ul li a.hover{
+    background:  pink;
+    border-radius: 2px;
+}
+.center{
+    position:absolute;
+    top: 25%;
+    padding: 40px;
+    margin: 3%;
+}
+.first-text{
+    position: relative;
+    top:100px;
+    left: 8px;
+    font-family: cursive;
+    font-size: 49px;
+}
+.second-text{
+    position: relative;
+    top:120px;
+    left:60px;
+}
+button{
+    height: 50px;
+    width: 120px;
+}
+#buttons{
+    margin-top: 140px;
+    margin-left: 120px;
+    border: none;
+    z-index: 1;
+    width: 100px;
+
+}
+#buttons:hover{
+    background: #e59cac;
+    box-shadow: 0 0 5px #ff96ad, 0 0 10px #ff96ad, 0 0 10px #ff96ad,
+    0 0 200px #ff96ad;
+}
+.column{
+    float:left;
+    width: 1500px;
+    padding: 5px;
+    flex: 33.33%;
+    padding: 5px;
+    padding-left: 17px;
+    padding-right: 17px;
+    display: flex;
+    height: 300px;
+   
+}
+.rows{
+    display: flex;
+    
+}
+.rows::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+
+div.polaroid {
+    width: 300px;
+    height: 400px;
+    background-color: salmon;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    overflow: hidden;
+    transition: 0.5s;
+    float: center;
+    position: relative;
+    
+  }
+
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
+
+  }
+  div.polaroid:hover{
+    height: auto;
+    width: 300px;
+    }
+
+    
+
+    div.polaroid:hover, div.polaroid:active{box-shadow: 0 0 20px rgb(92, 88, 85); }
+
+    li.nav-item:hover, li.nav-item:active{text-shadow: 0 0 20px rgb(72, 77, 82); }
+
+
+.p{
+   margin-top: 0;
+   margin-bottom: 1rem;
+}
+.jumbotron{
+    background-image: linear-gradient( rgba(250,0,0,0), rgb(400, 98, 99));
+    border:5px solid rgb(155, 85, 155);
+    padding: 50px;
+    
+}
+
+.styling{
+    display: flex;
+    background-color: rgb(43, 14, 6);
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 600px;
+    align-items: center;
+    overflow: hidden;
+}
+.Source{
+    text-align: center;
+    color: aliceblue;
+    padding-left: 45px;
+}
+.lipstick{
+    display: flex;
+    background-color: rgba(206, 7, 40, 0.822);
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 600px;
+    align-items: center;
+    overflow: hidden;
+}
+.view{
+    text-align: center;
+    color: aliceblue;
+    padding-left: 45px;
+}
+.eyeshadow{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    background-color: rgb(165 180 252);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 600px;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.looks{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.877);
+    padding-left: 45px;
+
+}
+.haircare{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    background-color: rgb(219, 189, 219);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 600px;
+    align-items: center;
+    overflow: hidden;
+}
+.hair{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.877);
+    padding-left: 45px;
+}
+.mask1{
+    align-items: center;
+    text-align: justify;
+    margin-top: 80px;
+
+}
+
+.perfume{
+   display: inline-block;
+   margin-top: 196px;
+   margin-left: 100px;
+   margin-bottom: 30px;
+}
+.perfume2{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(207, 8, 42);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    margin-right: 25px;
+    margin-left: 1px;
+    margin-top: 0px;
+}
+.hairproduct{
+    display: inline-block;
+   margin-top: 196px;
+   margin-left: 100px;
+   margin-bottom: 30px;
+}
+.hairproduct2{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(74, 148, 177);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    margin-right: 25px;
+    margin-left: 1px;
+    margin-top: 0px;
+}
+.everything{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.everything2{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(218, 134, 148);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    margin-right: 25px;
+    margin-left: 1px;
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 300px),
+    (min-device-width: 320px) and (max-device-width: 1024px) {
+      .text {
+        font-size: 11px
+      }
+
+      table,
+      thead,
+      tbody,
+      th,
+      td,
+      tr {
+        display: block;
+      }
+    }
